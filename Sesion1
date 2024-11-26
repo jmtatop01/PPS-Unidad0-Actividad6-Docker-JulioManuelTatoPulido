@@ -1,7 +1,7 @@
 En este ejercicio he creado un contenedor demonio a partir de una imagen nginx, llamandose "servidor_web" y que se acceda desde el puerto 8181, con el comando ``docker run -d --name servidor_web -p 8181:80 nginx``
 
 
-![](/imagenes/1.png)
+![](/Imagenes/1.png)
 
 
 ## Comprobación
@@ -10,13 +10,13 @@ En este ejercicio he creado un contenedor demonio a partir de una imagen nginx, 
 Y lo podemos comprobar que está funcionando, si buscamos en el navegador con la ip de nuestra máquina y el puerto al que se ha conectado el contenedor:
 
 
-![](/imagenes/2.png)
+![](/Imagenes/2.png)
 
 
 Ahora, vamos a comprobar que imágenes tenemos en nuestro registro local:
 
 
-![](/imagenes/3.png)
+![](/Imagenes/3.png)
 
 
 ## Eliminación
@@ -25,4 +25,4 @@ Ahora, vamos a comprobar que imágenes tenemos en nuestro registro local:
 Y, por último, hemos parado el contenedor con el comando ``docker stop servidor_web`` y eliminado con el comando ``docker rm servidor_web``
 
 
-![](/imagenes/4.png)
+![](/Imagenes/4.png)
