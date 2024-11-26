@@ -1,3 +1,4 @@
+## Creación de contenedor
 En este ejercicio he creado un contenedor demonio a partir de una imagen nginx, llamandose "servidor_web" y que se acceda desde el puerto 8181, con el comando ``docker run -d --name servidor_web -p 8181:80 nginx``
 
 
