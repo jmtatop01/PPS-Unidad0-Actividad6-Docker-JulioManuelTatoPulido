@@ -3,11 +3,13 @@
 ### Creación de redes
 Para empezar vamos a crear dos redes de tipo **bridge** con las siguientes configuraciones:
 
+**Red 1**
 - Nombre: red1
 - Dirección de red: 172.28.0.0
 - Máscara de red: 255.255.0.0
 - Gateway: 172.28.0.1
 
+**Red 2**
 - Nombre: red2
 - El resto de los datos será proporcionados automáticamente por Docker.
 
