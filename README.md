@@ -14,6 +14,8 @@ Este curso se ha realizado con los siguientes objetivos:
 - Desplegar escenarios multicontenedor usando docker-compose.
 - Estudiar el ciclo de vida del desarrollo, pruebas y despliegue de aplicaciones utilizando contenedores.
 
+Los cuáles se han dividido en las diferentes sesiones, en las que hay ejercicios realizados a continuación.
+
 * [Sesión 1: Introducción a los contenedores y a Docker](Sesion1.md)
 * [Sesión 2: Trabajando con imágenes docker](Sesion2.md)
 * [Sesión 3: Almacenamiento en docker](Sesion3.md)
